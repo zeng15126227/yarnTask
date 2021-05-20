@@ -28,7 +28,7 @@
   </property>
   <property>
     <name>yarn.resourcemanager.zk-address</name>
-    <value>lf319-m3-045:2181,lf319-m3-046:2181,lf319-m3-044:2181</value>
+    <value>lf-172-whx5:2181,lf-172-whx6:2181,lf-172-whx4:2181</value>
   </property>
   <property>
     <name>yarn.resourcemanager.store.class</name>
@@ -47,56 +47,56 @@
     <value>yarnRM</value>
   </property>
   <property>
-    <name>yarn.resourcemanager.address.rm1152</name>
-    <value>lf319-m3-004:8032</value>
+    <name>yarn.resourcemanager.address.rm95</name>
+    <value>lf-172-whx1:8032</value>
   </property>
   <property>
-    <name>yarn.resourcemanager.scheduler.address.rm1152</name>
-    <value>lf319-m3-004:8030</value>
+    <name>yarn.resourcemanager.scheduler.address.rm95</name>
+    <value>lf-172-whx1:8030</value>
   </property>
   <property>
-    <name>yarn.resourcemanager.resource-tracker.address.rm1152</name>
-    <value>lf319-m3-004:8031</value>
+    <name>yarn.resourcemanager.resource-tracker.address.rm95</name>
+    <value>lf-172-whx1:8031</value>
   </property>
   <property>
-    <name>yarn.resourcemanager.admin.address.rm1152</name>
-    <value>lf319-m3-004:8033</value>
+    <name>yarn.resourcemanager.admin.address.rm95</name>
+    <value>lf-172-whx1:8033</value>
   </property>
   <property>
-    <name>yarn.resourcemanager.webapp.address.rm1152</name>
-    <value>lf319-m3-004:8088</value>
+    <name>yarn.resourcemanager.webapp.address.rm95</name>
+    <value>lf-172-whx1:8088</value>
   </property>
   <property>
-    <name>yarn.resourcemanager.webapp.https.address.rm1152</name>
-    <value>lf319-m3-004:8090</value>
+    <name>yarn.resourcemanager.webapp.https.address.rm95</name>
+    <value>lf-172-whx1:8090</value>
   </property>
   <property>
-    <name>yarn.resourcemanager.address.rm1153</name>
-    <value>lf319-m3-005:8032</value>
+    <name>yarn.resourcemanager.address.rm62</name>
+    <value>lf-172-whx6:8032</value>
   </property>
   <property>
-    <name>yarn.resourcemanager.scheduler.address.rm1153</name>
-    <value>lf319-m3-005:8030</value>
+    <name>yarn.resourcemanager.scheduler.address.rm62</name>
+    <value>lf-172-whx6:8030</value>
   </property>
   <property>
-    <name>yarn.resourcemanager.resource-tracker.address.rm1153</name>
-    <value>lf319-m3-005:8031</value>
+    <name>yarn.resourcemanager.resource-tracker.address.rm62</name>
+    <value>lf-172-whx6:8031</value>
   </property>
   <property>
-    <name>yarn.resourcemanager.admin.address.rm1153</name>
-    <value>lf319-m3-005:8033</value>
+    <name>yarn.resourcemanager.admin.address.rm62</name>
+    <value>lf-172-whx6:8033</value>
   </property>
   <property>
-    <name>yarn.resourcemanager.webapp.address.rm1153</name>
-    <value>lf319-m3-005:8088</value>
+    <name>yarn.resourcemanager.webapp.address.rm62</name>
+    <value>lf-172-whx6:8088</value>
   </property>
   <property>
-    <name>yarn.resourcemanager.webapp.https.address.rm1153</name>
-    <value>lf319-m3-005:8090</value>
+    <name>yarn.resourcemanager.webapp.https.address.rm62</name>
+    <value>lf-172-whx6:8090</value>
   </property>
   <property>
     <name>yarn.resourcemanager.ha.rm-ids</name>
-    <value>rm1152,rm1153</value>
+    <value>rm95,rm62</value>
   </property>
   <property>
     <name>yarn.resourcemanager.client.thread-count</name>
@@ -120,7 +120,7 @@
   </property>
   <property>
     <name>yarn.scheduler.maximum-allocation-mb</name>
-    <value>247480</value>
+    <value>4096</value>
   </property>
   <property>
     <name>yarn.scheduler.minimum-allocation-vcores</name>
@@ -132,7 +132,7 @@
   </property>
   <property>
     <name>yarn.scheduler.maximum-allocation-vcores</name>
-    <value>56</value>
+    <value>8</value>
   </property>
   <property>
     <name>yarn.resourcemanager.amliveliness-monitor.interval-ms</name>

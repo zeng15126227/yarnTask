@@ -14,9 +14,8 @@ import java.util.List;
 public class taskState {
     public static void main(String[] args) {
         System.out.println(">>>begin");
-        /*String res = taskState.getAppId("monitot_DB");
-        System.out.println(res);*/
-        stringToAppId("application_1611052690019_3159397");
+        YarnApplicationState res = taskState.getState("application_1611052690019_6010298");
+        System.out.println(res.toString());
         System.out.println(">>>end");
     }
 
@@ -112,9 +111,9 @@ public class taskState {
      * @param appId
      * @return
      */
-    /*public static YarnApplicationState getState(String appId) {
+    public static YarnApplicationState getState(String appId) {
         YarnClient client = getClientInstance();
-        ApplicationId applicationId = ApplicationId;
+        ApplicationId applicationId = stringToAppId(appId);
         YarnApplicationState yarnApplicationState = null;
         try {
             ApplicationReport applicationReport = client.getApplicationReport(applicationId);
@@ -128,5 +127,5 @@ public class taskState {
             e.printStackTrace();
         }
         return yarnApplicationState;
-    }*/
+    }
 }
